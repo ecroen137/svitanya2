@@ -21,19 +21,21 @@ body {
 	background: rgba(255,255,255,.7);
 	border-radius: 60px;
 	box-shadow: 3px 3px 2px rgba(250,250,250,0.68);
-	background: -moz-linear-gradient(top,  rgba(255,255,255,0.84) 0%, rgba(221,221,221,0.48) 100%); /* FF3.6+ */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(244,244,244,0.62) 100%); /* FF3.6+ */
 
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.84)), color-stop(100%,rgba(221,221,221,0.48))); /* Chrome,Safari4+ */
-	
-	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.84) 0%,rgba(221,221,221,0.48) 100%); /* Chrome10+,Safari5.1+ */
-	
-	background: -o-linear-gradient(top,  rgba(255,255,255,0.84) 0%,rgba(221,221,221,0.48) 100%); /* Opera 11.10+ */
-	
-	background: -ms-linear-gradient(top,  rgba(255,255,255,0.84) 0%,rgba(221,221,221,0.48) 100%); /* IE10+ */
-	
-	background: linear-gradient(to bottom,  rgba(255,255,255,0.84) 0%,rgba(221,221,221,0.48) 100%); /* W3C */
-	
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6ffffff', endColorstr='#7adddddd',GradientType=0 ); /* IE6-9 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(244,244,244,0.62))); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(244,244,244,0.62) 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(244,244,244,0.62) 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(244,244,244,0.62) 100%); /* IE10+ */
+
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(244,244,244,0.62) 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9ef4f4f4',GradientType=0 ); /* IE6-9 */
+
+
 
 
 
@@ -65,7 +67,7 @@ nav ul li:hover > ul, nav ul li:active > ul {
 nav ul {
 	/*background: #5f6975; */
 	/*box-shadow: 0px 0px 9px rgba(0,0,0,0.15);*/
-	padding-left: 20%;
+	padding-left: 17.5%;
 	border-radius: 10px;  
 	list-style: none;
 	position: relative;
@@ -201,9 +203,45 @@ nav ul ul li a:hover, nav ul ul li a:active {
   }
   
   
+h2 {
+	font-family: papyrus, sans-serif;
+	text-align: center;
+	font-size: 2em;
+	color: #690303;
+	margin-top: 1%;
+	padding-top: 1%;
+}
+  
+  
 footer p {
 	font-size: 0.5em;
 	text-align: center;
+}
+
+
+.album {
+	float: left;
+	width: 40%;
+	padding: 1% 0;
+}
+
+
+.soundcloud {
+	float: left;
+	width: 55%;
+	padding: 1% 0;
+}
+
+
+.album-title {
+	font-family: papyrus, sans-serif;
+	font-size: 1.4em;
+	color: #690303;
+}
+
+
+.music-page {
+	margin-bottom: 4%;	
 }
 
 .group:after {
@@ -215,8 +253,8 @@ footer p {
 
 
 @media screen and (max-width: 1100px) {
-	nav ul {
-	padding-left: 15.5%;
+nav ul {
+	padding-left: 14.5%;
 	width:90%;
 }
 	
@@ -224,17 +262,31 @@ footer p {
 }
 
 @media screen and (max-width: 1000px) {
-	nav ul {
-	padding-left: 13%;
+nav ul {
+	padding-left: 11%;
 	width:90%;
 }
+
+.album {
+
+	width: 40%;
+
+}
+
+
+.soundcloud {
+
+	width: 59%;
+
+}
+
 	
 	
 }
 
 @media screen and (max-width: 950px) {
-	nav ul {
-	padding-left: 9.5%;
+nav ul {
+	padding-left: 9%;
 	width:90%;
 }
 	
@@ -242,19 +294,46 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
-	nav ul {
+nav ul {
 	padding-left: 7%;
 	width:90%;
 }
-	nav ul li a {
-		font-size: 1.5em;
-	}
+	
+nav ul li a {
+	font-size: 1.5em;
+}
+
+.album {
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
 	
 }
 
+
+.album ol {
+	text-align: left;
+	padding-left: 25%;
+}
+
+.soundcloud {
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.music-page {
+	margin-bottom: 15%;	
+}
+
+}
+
+
 @media screen and (max-width: 850px) {
-	nav ul {
-	padding-left: 1%;
+nav ul {
+	padding-left: 5%;
 	width:96%;
 }
 
@@ -288,8 +367,8 @@ nav ul li a {
 }
 
 @media screen and (max-width: 815px) {
-	nav ul {
-	padding-left: 0;
+nav ul {
+	padding-left: 2%;
 
 }
 	
@@ -341,11 +420,15 @@ nav ul li a {
 		margin: 0 auto;
 		padding: 1.5%; 
 	}
+	
+
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	
-	
+.album ol {
+	padding-left: 20%;
+}
 	
 	
 }
