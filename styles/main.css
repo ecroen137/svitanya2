@@ -244,6 +244,76 @@ footer p {
 	margin-bottom: 4%;	
 }
 
+
+.about-left {
+	float: left;
+	width: 48%;
+	padding: 1%;
+}
+
+.about-left img {
+	max-width: 100%;
+}
+
+
+.about-right {
+	float: left;
+	width: 48%;
+	padding: 1%;
+}
+
+
+.singer-profile {
+	margin-bottom: 2%;	
+}
+
+.singer-image {
+	float: left;
+	width: 18%;
+	padding: 1%;	
+}
+
+.singer-image img {
+	width: 100%;	
+}
+
+
+.singer-bio {
+	float: left;
+	width: 68%;
+	padding: 1%;
+}
+
+.singer-bio p {
+	margin: 0;
+	text-align:justify;
+}
+
+.singer-flower {
+	float: left;
+	width: 8%;
+	padding: 1%;
+}
+
+
+.singer-flower img {
+	width: 100%;
+}
+
+
+.even {
+	float: right;
+}
+
+
+.singer-name {
+	font-family: papyrus, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #690303;
+	line-height: 1em;
+}
+
 .group:after {
   content: "";
   display: table;
@@ -328,6 +398,39 @@ nav ul li a {
 	margin-bottom: 15%;	
 }
 
+.singer-profile {
+	margin-bottom: 1%;	
+}
+
+.singer-image {
+	float: none;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.even {
+	float: none;	
+}
+
+.singer-image img {
+	width: 70%;
+	height: auto;
+}
+
+
+.singer-flower {
+	float: none;
+	margin: 0 auto;
+}
+
+.singer-bio {
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
 }
 
 
@@ -362,6 +465,23 @@ nav ul li a {
 	margin: 0 auto;
 }
 
+
+.about-left {
+	float: none;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+.about-right {
+	float: none;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
 	
 	
 }
@@ -429,6 +549,19 @@ nav ul {
 .album ol {
 	padding-left: 20%;
 }
+
+.about-left {
+
+	width: 90%;
+
+}
+
+
+
+
+.about-right {
+	width: 90%;
+
 	
 	
 }
