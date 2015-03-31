@@ -136,6 +136,11 @@ nav ul ul li a:hover, nav ul ul li a:active {
   color: #CED0D6;
 }
 
+.hidden-nav {
+	display: none;
+}
+
+
 .slicknav_menu {
 	display:none;
 }
@@ -314,6 +319,42 @@ footer p {
 	line-height: 1em;
 }
 
+
+.auditions-image {
+	float: left;
+	width: 48%;
+	padding: 1%;
+}
+	
+.auditions-image img {
+	width: 90%;
+}
+
+
+.auditions-text1 {
+	float: left;
+	width: 48%;
+	padding: 1%;
+	padding-top: 5%;
+}
+
+.auditions-text2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.auditions-text2 ul {
+	padding-left: 10%;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.auditions-text2 ul li {
+	list-style: url(../../svitanya2/images/embr5C.png);
+	vertical-align: top;
+	line-height: 1em;
+}
+
 .group:after {
   content: "";
   display: table;
@@ -348,6 +389,11 @@ nav ul {
 
 	width: 59%;
 
+}
+
+.auditions-image img {
+	width: 100%;
+	height: auto;
 }
 
 	
@@ -510,6 +556,10 @@ nav ul {
 		display:none;
 	}
 	
+	.hidden-nav {
+		display: none;	
+	}
+	
 	.slicknav_menu {
 		display:block;
 	}
@@ -527,12 +577,15 @@ nav ul {
 		font-size: 1.8em;
 		line-height: 1.8em;
 		text-align: center;
+	
 	}
 	
 	.slicknav_nav a {
 		font-family: papyrus, sans-serif;
 		color: #fff;
 	}
+	
+	
 	
 	#logo {
 		text-align: center;
@@ -557,11 +610,24 @@ nav ul {
 }
 
 
-
-
 .about-right {
 	width: 90%;
 
-	
+}
+
+.auditions-image, .auditions-text1 {
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.auditions-text1 h2 {
+	margin: 0;
+	padding: 5%;
+	line-height: 1.2em;	
+}
+
+
 	
 }
