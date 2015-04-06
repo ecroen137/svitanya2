@@ -599,6 +599,23 @@ footer p {
 }
 
 
+.contact-info {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.contact-item {
+	width: 90%;
+	padding: 2%;
+	margin: 0 auto 2% auto;
+	
+}
+
+.contact-heading {
+	font-style: italic;
+	color: #690303;	
+}
+
 .group:after {
   content: "";
   display: table;
@@ -885,6 +902,12 @@ nav ul li a {
 nav ul {
 	padding-left: 0.5%;
 
+}
+
+.contact-item {
+	
+	margin-bottom: 6%;
+	
 }
 	
 	
