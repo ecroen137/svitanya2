@@ -258,7 +258,9 @@ footer p {
 
 	width: 50%;
 	padding: 2%;
-	margin: 2% auto;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
 }
 
 .purchase {
@@ -323,6 +325,10 @@ footer p {
 }
 
 
+.about-lower {
+	margin-top: 3%;
+}
+
 .about-left2, .about-right2 {
 	float: left;
 	width: 48%;
@@ -362,7 +368,14 @@ footer p {
 	float: left;
 	width: 68%;
 	padding: 1%;
-	margin-top: 3%;
+	margin-top: 2.5%;
+	min-height: 244px;
+	vertical-align: middle;
+	
+}
+
+.singer2 {
+	margin-top: 5%;	
 }
 
 .singer-bio p {
@@ -377,6 +390,22 @@ footer p {
 	margin-top: 4%;
 }
 
+
+.flower2 {
+	margin-top: 5%;
+}
+
+.flower3 {
+	margin-top: 6%;
+}
+
+.flower4 {
+	margin-top: 7%;	
+}
+
+.flower5 {
+	margin-top: 2%;	
+}
 
 .singer-flower img {
 	width: 100%;
@@ -401,6 +430,7 @@ footer p {
 	float: left;
 	width: 48%;
 	padding: 1%;
+	padding-left: 5%;
 }
 	
 .auditions-image img {
@@ -410,7 +440,7 @@ footer p {
 
 .auditions-text1 {
 	float: left;
-	width: 48%;
+	width: 38%;
 	padding: 1%;
 	padding-top: 5%;
 }
@@ -460,10 +490,11 @@ footer p {
 	float: left;
 	padding: 0;	
 	margin: 0;
+	margin-left: 11%;
 	text-align: right;
 }
 
-.vertical-pattern img {
+.vertical-pattern img, .vertical-pattern2 img {
 	max-width: 100%;
 }
 
@@ -478,8 +509,13 @@ footer p {
 
 .upcoming-images {
 	float: left;
-	width: 70%;
+	width: 63.5%;
 	padding: 0;
+	margin: 0;
+}
+
+.upcoming-slides {
+	width: 100%;
 	margin: 0;
 }
 
@@ -713,6 +749,10 @@ nav ul {
 	padding-left: 10.5%;
 	width:90%;
 }
+
+.singer-bio {
+	margin-top: 0;	
+}
 	
 	
 }
@@ -730,6 +770,8 @@ nav ul li a {
 .about-right {
 	margin-top: 5%;	
 }
+
+
 
 
 .album {
@@ -761,7 +803,7 @@ nav ul li a {
 	margin: 0 auto;
 	text-align: left;	
 	padding-bottom: 0;
-	font-style: italic; 
+	
 }
 
 .event-description {
@@ -805,8 +847,10 @@ nav ul li a {
 }
 
 .about-right {
-	margin-top: 7%;	
+	margin-top: 9%;	
 }
+
+
 
 
 .album {
