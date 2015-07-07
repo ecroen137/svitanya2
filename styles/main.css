@@ -8,7 +8,7 @@ body {
 	margin:0; 
 	font-family:'tahoma';
 	/*background-image: url('../images/red-subtlepattern.jpg');   This is Evan's background */
-	background-image: url('../images/CroatianSquareredcrsmallest.jpg');
+	background-image: url('../images/CroatianSquareredcrsmallest.JPG');
 	background-attachment: fixed; /* this keeps the background image fixed, while rest of page scrolls*/
 	padding: 3%;
 	
