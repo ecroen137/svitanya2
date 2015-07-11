@@ -226,6 +226,11 @@ nav ul ul li a:hover, nav ul ul li a:active {
 }
   
   
+#paypalDonate {
+	width: 60%;
+  	margin-top: 3%;	
+}
+  
 #home-text {
 	float: left;
 	padding-left: 4%;
@@ -268,7 +273,6 @@ footer p {
 
 
 .soundcloud {
-
 	width: 50%;
 	padding: 2%;
 	margin: 0 auto;
