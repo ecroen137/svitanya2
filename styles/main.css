@@ -7,12 +7,11 @@
 body { 
 	margin:0; 
 	font-family:'tahoma';
-	/*background-image: url('../images/red-subtlepattern.jpg');   This is Evan's background */
 	background-image: url('../images/CroatianSquareredcrsmallest.JPG');
 	background-attachment: fixed; /* this keeps the background image fixed, while rest of page scrolls*/
 	padding: 3%;
-	
 }
+
 
 #wrapper {
 	max-width: 1200px;
@@ -20,16 +19,14 @@ body {
 	padding: 1%;	
 	background: rgba(255,255,255,.7);
 	border-radius: 60px;
-
-	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.86) 22%, rgba(255,255,255,0.69) 50%, rgba(255,255,255,0.88) 80%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(22%,rgba(255,255,255,0.86)), color-stop(50%,rgba(255,255,255,0.69)), color-stop(80%,rgba(255,255,255,0.88)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.86) 22%,rgba(255,255,255,0.69) 50%,rgba(255,255,255,0.88) 80%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.86) 22%,rgba(255,255,255,0.69) 50%,rgba(255,255,255,0.88) 80%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.86) 22%,rgba(255,255,255,0.69) 50%,rgba(255,255,255,0.88) 80%,rgba(255,255,255,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.86) 22%,rgba(255,255,255,0.69) 50%,rgba(255,255,255,0.88) 80%,rgba(255,255,255,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
+	background: -moz-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.86) 22%, rgba(255,255,255,0.69) 50%, rgba(255,255,255,0.88) 80%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.86) 22%, rgba(255,255,255,0.69) 50%, rgba(255,255,255,0.88) 80%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), color-stop(0.22, rgba(255,255,255,0.86)), color-stop(0.5, rgba(255,255,255,0.69)), color-stop(0.8, rgba(255,255,255,0.88)), to(rgba(255,255,255,1)));
+	background: -o-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.86) 22%, rgba(255,255,255,0.69) 50%, rgba(255,255,255,0.88) 80%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.86) 22%, rgba(255,255,255,0.69) 50%, rgba(255,255,255,0.88) 80%, rgba(255,255,255,1) 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
+
 
 #logo {
 	text-align: center;
@@ -38,10 +35,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding: 1.5%; 
 }
 
+
 #logo img{
 	max-width: 70%;
-	
 }
+
 
 nav ul ul {
 	display: none;
@@ -66,7 +64,7 @@ nav ul {
 
 
 nav ul:after {
-		content: ""; 
+	content: ""; 
     clear: both; 
     display: block;
 }
@@ -86,6 +84,7 @@ nav ul li:hover a, nav ul li:active a {
   color: #fff;
 }
 	
+	
 nav ul li a {
   display: block; 
   padding: 10px 20px;
@@ -95,14 +94,15 @@ nav ul li a {
   font-size: 1.6em;
 }
 
+
 nav ul ul {
 	background: rgba(75, 84, 95, 0.8); 
-  border-radius: 0px; 
-  padding: 0;
+	border-radius: 0px; 
+	padding: 0;
 	position: absolute; 
-  top: 100%;
-  width: auto;
-  z-index: 99;
+	top: 100%;
+	width: auto;
+	z-index: 99;
 }
 
 
@@ -125,9 +125,11 @@ nav ul ul li a:hover, nav ul ul li a:active {
   color: #CED0D6;
 }
 
+
 .hidden-nav {
 	display: none;
 }
+
 
 .arrows {
 	padding: 0;
@@ -141,37 +143,49 @@ nav ul ul li a:hover, nav ul ul li a:active {
 	display:none;
 }
 
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 90%;
-  padding: 0;
-  margin: 0 auto;
- }
 
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
- }
 
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
- }
+/*    BEGIN STYLES FOR RSLIDES PLUGIN (PHOTO SLIDESHOW)  //   */
 
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
- }
+
+			.rslides {
+			  position: relative;
+			  list-style: none;
+			  overflow: hidden;
+			  width: 90%;
+			  padding: 0;
+			  margin: 0 auto;
+			 }
+			
+			
+			.rslides li {
+			  -webkit-backface-visibility: hidden;
+			  position: absolute;
+			  display: none;
+			  width: 100%;
+			  left: 0;
+			  top: 0;
+			 }
+			
+			
+			.rslides li:first-child {
+			  position: relative;
+			  display: block;
+			  float: left;
+			 }
+			
+			
+			.rslides img {
+			  display: block;
+			  height: auto;
+			  float: left;
+			  width: 100%;
+			  border: 0;
+			 }
+  
+  
+ /*  //  END STYLES FOR RSLIDES PLUGIN (PHOTO SLIDESHOW)  */
+  
   
 #main-content {
 	padding: 4%;  
@@ -249,8 +263,7 @@ footer p {
 
 
 .listen {
-	padding-left: ;
-	margin-bottom: ;	
+	
 }
 
 
@@ -273,7 +286,7 @@ footer p {
 
 
 .two-albums {
-	padding-left: ;	
+
 }
 
 .album {
@@ -616,6 +629,7 @@ footer p {
 
 .booking-page2 p {
 	text-align: center;	
+	font-size: 1.2em;
 }
 
 .booking-page2 ul {
@@ -627,9 +641,10 @@ footer p {
 .booking-page2 ul li {
 	list-style: url(../../svitanya2/images/embr5C.png);
 	vertical-align: top;
-	line-height: 1em;
+	font-size: 1.2em;
+	line-height: 1.5em;
 	padding-left: 3%;
-	margin-bottom: 3%;
+	margin-bottom: 4%;
 }
 
 
@@ -739,105 +754,107 @@ footer p {
 
 
 /*    -----------------------------------------------------------------     */
-/*                ****Media Queries - For Responsive****                    */
+/*																			*/
+/*              ****  Media Queries - For Responsive  ****                  */
 /*        Everything above this applies to screens at least 1101px wide     */
+/*																			*/
+/*    -----------------------------------------------------------------     */
 
 
 
 @media screen and (max-width: 1100px) {
-nav ul {
-	padding-left: 10.5%;
-	width:90%;
+	
+	nav ul {
+		padding-left: 10.5%;
+		width:90%;
+	}
+	
+	.singer-bio {
+		margin-top: 0;	
+	}
+		
+	.homepage-left {
+		margin-top: 4%;	
+	}
+	
 }
 
-.singer-bio {
-	margin-top: 0;	
-}
-	
-.homepage-left {
-	margin-top: 4%;	
-}
-	
-}
+
 
 @media screen and (max-width: 1000px) {
-nav ul {
-	padding-left: 7%;
-	width:96%;
-}
-
-nav ul li a {
-	padding: 10px 15px;	
-}
-
-.about-right {
-	margin-top: 5%;	
-}
-
-
-
-
-.album {
-
-	width: 40%;
-
-}
-
-.listen {
-	text-align: center;	
-}
-
-
-.soundcloud {
-	float: none;
-	width: 60%;
 	
-	margin: 0 auto;
-
-}
-
-.auditions-image img {
-	width: 100%;
-	height: auto;
-}
-
-.event-date {
-	width: 80%;
-	margin: 0 auto;
-	text-align: left;	
-	padding-bottom: 0;
+	nav ul {
+		padding-left: 7%;
+		width:96%;
+	}
 	
-}
-
-.event-description {
-	width: 80%;
-	margin: 0 auto;
-	text-align: left;	
-	padding-top: 0;
-}
-
-.event-listing {
-	padding-bottom: 5%;
-	padding-left: 18%;
-}
+	nav ul li a {
+		padding: 10px 15px;	
+	}
 	
+	.about-right {
+		margin-top: 5%;	
+	}
 	
-.track-listing {
-	padding-left: 5%;	
-}
+	.album {
+		width: 40%;
+	}
+	
+	.listen {
+		text-align: center;	
+	}
+	
+	.soundcloud {
+		float: none;
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+	.auditions-image img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.event-date {
+		width: 80%;
+		margin: 0 auto;
+		text-align: left;	
+		padding-bottom: 0;
+	}
+	
+	.event-description {
+		width: 80%;
+		margin: 0 auto;
+		text-align: left;	
+		padding-top: 0;
+	}
+	
+	.event-listing {
+		padding-bottom: 5%;
+		padding-left: 18%;
+	}
+		
+		
+	.track-listing {
+		padding-left: 5%;	
+	}
 	
 	
 	
 }
+
+
 
 @media screen and (max-width: 950px) {
-nav ul {
-	padding-left: 2.5%;
 
-}
+	nav ul {
+		padding-left: 2.5%;
+	}
+		
 	
-	
 }
+
+
 
 @media screen and (max-width: 900px) {
 nav ul {
