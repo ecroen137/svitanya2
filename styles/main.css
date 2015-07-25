@@ -242,6 +242,7 @@ h1 {
   display: inline-block;
   margin: 0;
   font-family: papyrus, sans-serif;
+  height: 33px;
 }
   
   
@@ -754,7 +755,7 @@ footer p {
 	color: #690303;	
 }
 
-.group:after {
+.group:after {         /* this is to clear floats. put the class group on the div that directly contains the elements that are being floated */
   content: "";
   display: table;
   clear: both;
